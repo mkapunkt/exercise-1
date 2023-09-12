@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: exercise-route
+          predicates:
+            - Path=/api/exercise/**
+          uri: lb://EXAMPLE-SERVICE
+          filters:
+            - RewritePath=/api/exercise(?<segment>.*), $\{segment}

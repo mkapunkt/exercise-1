@@ -5,3 +5,6 @@
 # /{label}/{application}-{profile}.properties
 
 GET http://localhost:8888/main/application-default.yml
+
+###
+GET http://localhost:9999/magic
