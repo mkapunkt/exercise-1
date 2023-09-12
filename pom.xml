@@ -18,6 +18,9 @@
 
   <modules>
     <module>config-server</module>
+    <module>discovery-server</module>
+    <module>gateway-server</module>
+    <module>example-service</module>
   </modules>
 
 

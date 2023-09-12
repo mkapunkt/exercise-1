@@ -8,3 +8,7 @@ GET http://localhost:8888/main/application-default.yml
 
 ###
 GET http://localhost:9999/magic
+
+###
+
+GET http://localhost:8080/api/exercise/magic

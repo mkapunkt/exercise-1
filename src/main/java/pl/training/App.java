@@ -4,6 +4,7 @@ package pl.training;
  * Hello world!
  *
  */
+@SpringBootApp
 public class App 
 {
     public static void main( String[] args )
