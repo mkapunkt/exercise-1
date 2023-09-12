@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: example-service
+  config:
+    import: optional:configserver:http://localhost:8888
+  cloud:
+    config:
+      label: main
+      #fail-fast: true
+server:
+  port: 9999
